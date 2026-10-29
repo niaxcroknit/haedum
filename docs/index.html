@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>해둠 개인정보처리방침</title>
+<meta name="description" content="해둠(com.nia.haedum) 앱의 개인정보처리방침">
+<link rel="icon" href="icon.png">
+</head>
+<body>
+<style>
+/* Layout: one narrow reading column in 해둠's own iOS grouped style — large title, grey ground, white rounded groups */
+:root{
+  --bg:#F2F2F7; --surface:#FFFFFF; --ink:#1C1C1E; --ink2:#3A3A3C; --muted:#8E8E93; --hair:#E5E5EA; --accent:#3B82F6; --ok:#22A36A;
+  --f-ui:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard","Noto Sans KR","Noto Sans CJK KR","Malgun Gothic",system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#000000;--surface:#1C1C1E;--ink:#F2F2F7;--ink2:#D1D1D6;--muted:#8E8E93;--hair:#2C2C2E;--accent:#6EA8FF;--ok:#4BD08E;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#000000;--surface:#1C1C1E;--ink:#F2F2F7;--ink2:#D1D1D6;--muted:#8E8E93;--hair:#2C2C2E;--accent:#6EA8FF;--ok:#4BD08E;color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-ui);font-size:15px;line-height:1.6;padding-inline:20px;padding-block:28px 56px;-webkit-font-smoothing:antialiased}
+.wrap{max-width:560px;margin:0 auto;display:flex;flex-direction:column;gap:26px}
+header{display:flex;flex-direction:column;gap:4px}
+.date{font-size:15px;color:var(--muted)}
+h1{font-size:1.9rem;font-weight:800;letter-spacing:-.04em;line-height:1.15;margin:0;text-wrap:balance}
+.lead{margin:6px 0 0;color:var(--ink2)}
+.sum{background:var(--surface);border-radius:16px;overflow:hidden}
+.sum div{display:flex;justify-content:space-between;gap:12px;padding:12px 16px;border-bottom:1px solid var(--hair)}
+.sum div:last-child{border-bottom:0}
+.sum span{color:var(--ink2)}
+.sum b{font-weight:700;color:var(--ok);white-space:nowrap}
+.sum b.ad{color:var(--ink2)}
+section{display:flex;flex-direction:column;gap:8px}
+h2{font-size:.82rem;font-weight:700;color:var(--muted);letter-spacing:.04em;margin:0 4px}
+.card{background:var(--surface);border-radius:16px;padding:14px 16px;min-width:0}
+.card p{margin:0}
+.card p+p,.card ul+p,.card p+ul{margin-top:8px}
+.card ul{margin:0;padding-left:1.1em}
+.card li+li{margin-top:4px}
+a{color:var(--accent)}
+.mail{font-weight:600;color:var(--accent);word-break:break-all;-webkit-user-select:all;user-select:all}
+footer{font-size:.8rem;color:var(--muted);text-align:center}
+</style>
+
+<div class="wrap">
+  <header>
+    <span class="date">시행일 2026년 10월 29일</span>
+    <h1>해둠 개인정보처리방침</h1>
+    <p class="lead">해둠은 집안일을 마지막으로 한 날을 기록하는 앱이에요. 집안일 기록은 이 기기 안에만 저장되고, 개발자에게 보내지 않아요.</p>
+  </header>
+
+  <div class="sum" aria-label="한눈에 보기">
+    <div><span>개발자의 개인정보 수집</span><b>안 함</b></div>
+    <div><span>집안일 기록의 서버 전송</span><b>없음</b></div>
+    <div><span>회원가입 · 로그인</span><b>없음</b></div>
+    <div><span>광고</span><b class="ad">Google AdMob</b></div>
+  </div>
+
+  <section>
+    <h2>1. 저장되는 정보</h2>
+    <div class="card">
+      <p>앱을 쓰면서 직접 입력한 아래 내용만 기기 안에 저장돼요.</p>
+      <ul>
+        <li>집안일 이름, 아이콘, 색</li>
+        <li>마지막으로 한 날짜와 지난 기록(최근 30번)</li>
+        <li>주기(며칠마다 할지)</li>
+      </ul>
+      <p>해둠 개발자는 이름, 연락처, 위치, 기기 식별번호 같은 개인정보를 받지 않아요. 광고와 관련된 정보는 아래 "광고" 항목을 봐 주세요.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>2. 저장 위치와 전송</h2>
+    <div class="card">
+      <p>기록은 안드로이드 앱의 내부 저장공간이나, 웹앱이라면 브라우저 저장소에만 있어요. 개발자를 포함해 누구에게도 보내지 않고, 제3자에게 제공하거나 맡기지도 않아요.</p>
+      <p>주기 초과 알림도 서버 없이 기기 안에서 예약돼요. 인터넷은 광고를 불러올 때만 써요.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>3. 광고</h2>
+    <div class="card">
+      <p>해둠은 무료로 운영하기 위해 화면 아래에 Google AdMob 광고를 보여줘요. 광고를 보여주는 과정에서 Google은 광고 ID, 기기 정보, IP 주소, 광고 노출·클릭 정보를 수집할 수 있어요.</p>
+      <p>이 정보는 해둠 개발자가 아니라 Google이 <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a>에 따라 처리해요. 집안일 기록은 광고에 쓰이지 않아요.</p>
+      <p>맞춤 광고는 휴대폰의 설정 → Google → 광고에서 끄거나 광고 ID를 재설정할 수 있어요.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>4. 사용하는 권한</h2>
+    <div class="card">
+      <ul>
+        <li><b>알림</b> · 정해 둔 주기를 넘긴 날 오전 9시에 알려줘요. 안드로이드 13 이상에서는 처음에 허용할지 물어보고, 허용하지 않아도 앱은 그대로 쓸 수 있어요.</li>
+        <li><b>부팅 후 실행</b> · 폰을 다시 켰을 때 알림 예약을 되살리는 데만 써요.</li>
+        <li><b>진동</b> · 집안일을 길게 눌러 편집할 때 짧게 진동해요.</li>
+        <li><b>인터넷 · 광고 ID</b> · 화면 아래 광고를 불러오고 보여주는 데 써요.</li>
+      </ul>
+      <p>그 밖의 권한은 요청하지 않아요.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>5. 보관 기간과 삭제</h2>
+    <div class="card">
+      <p>기록은 직접 지우기 전까지 기기에 남아요. 앱 안에서 항목을 삭제하거나, 앱을 지우거나, 브라우저의 사이트 데이터를 지우면 바로 사라지고 되살릴 수 없어요.</p>
+      <p>안드로이드 기기 백업을 켜두셨다면 앱 데이터가 본인의 Google 계정 백업에 포함될 수 있어요. 이 백업은 Google의 정책을 따르고, 해둠 개발자는 볼 수 없어요.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>6. 아동의 개인정보</h2>
+    <div class="card">
+      <p>해둠은 만 14세 미만 아동을 대상으로 하지 않으며, 개발자는 아동의 개인정보를 수집하지 않아요.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>7. 방침 변경</h2>
+    <div class="card">
+      <p>내용이 바뀌면 이 페이지에 새 시행일과 함께 올려요.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>8. 문의</h2>
+    <div class="card">
+      <p>궁금한 점은 아래 메일로 보내주세요.</p>
+      <p><span class="mail">kimseohappiness@gmail.com</span></p>
+    </div>
+  </section>
+
+  <footer>해둠 · com.nia.haedum</footer>
+</div>
+</body>
+</html>
