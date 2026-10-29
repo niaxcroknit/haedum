@@ -1,0 +1,9 @@
+.gradle/
+build/
+local.properties
+.idea/
+*.iml
+app/release/
+app/release-aab/
+*.jks
+*.keystore

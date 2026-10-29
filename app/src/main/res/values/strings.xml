@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">해둠</string>
+    <string name="channel_name">주기 초과 알림</string>
+    <string name="channel_desc">정해 둔 주기를 넘긴 집안일을 알려줘요</string>
+</resources>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 11 이하: 기본 자동 백업 사용 (WebView localStorage 포함) -->
+<full-backup-content />

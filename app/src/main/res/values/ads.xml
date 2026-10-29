@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 애드몹 앱 ID (~ 가 들어간 것) -->
+    <string name="admob_app_id" translatable="false">ca-app-pub-2486517051650098~3886541515</string>
+    <!-- 하단 배너 광고 단위 ID (/ 가 들어간 것). 출시(release) 빌드에서만 사용 -->
+    <string name="banner_unit_id" translatable="false">ca-app-pub-2486517051650098/1698296211</string>
+    <!-- 구글 공식 테스트 배너. 개발 중 ▶ 실행할 때 사용 (내 광고를 직접 누르면 계정이 정지될 수 있어요) -->
+    <string name="banner_test_unit_id" translatable="false">ca-app-pub-3940256099942544/9214589741</string>
+</resources>
